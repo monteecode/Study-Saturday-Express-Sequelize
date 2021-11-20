@@ -18,7 +18,7 @@ const Student = db.define('student', {
     },
   },
 });
-
+ 
 Student.beforeCreate((student) => {
   const nameFirst = student.firstName;
   const nameLast = student.lastName;
